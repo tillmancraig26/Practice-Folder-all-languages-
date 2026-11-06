@@ -14,6 +14,8 @@ bool palin(int x){
     int BacktoInt = stoi(newString);
     if(BacktoInt == x){
         return true; 
+    }else{
+        return false; 
     }
 }
 

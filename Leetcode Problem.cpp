@@ -9,7 +9,7 @@ bool palin(int x){
     string newString = "";
 
     for(int i = str.length();i>i-i;i--){
-        newString = newString + str[i];
+        newString = newString + str[i-1];
     }
     int BacktoInt = stoi(newString);
     if(BacktoInt == x){

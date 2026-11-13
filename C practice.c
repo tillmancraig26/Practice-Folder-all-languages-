@@ -10,10 +10,12 @@ int main() {
     scanf("%c",&myChar);
     if(myChar == 'A'){
         printf("hello \n");
+    }else if(myChar == 'F'){
+        printf("I'm not crazy about that letter....")
     }else{
         printf("Man.. thats INVALID");
     }
-    //is this working??dd
+    /
 
     return 0;
 }

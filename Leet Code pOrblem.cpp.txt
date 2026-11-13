@@ -1,0 +1,35 @@
+// Online C++ compiler (editor)
+// Write and run C++ online using this editor.
+
+#include <iostream>
+using namespace std;
+
+bool palin(int x){
+//string palin(int x){
+    string str = to_string(x);
+    string newString = "";
+
+    for(int i = str.length();i>0;i--){
+        newString = newString + str[i-1];
+    }
+    //return newString;
+
+    
+    int BacktoInt = stoi(newString);
+    if(BacktoInt == x){
+        return true; 
+    }else{
+        return false; 
+    }
+    
+
+}
+
+int main() {
+    cout<<palin(1234567899)<<endl;
+
+    
+
+    
+    return 0;
+}
